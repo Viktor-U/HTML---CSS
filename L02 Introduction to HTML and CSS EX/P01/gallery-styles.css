@@ -1,0 +1,13 @@
+img{
+    width: 300px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+img[src*="fd5bb039bfc5"]{
+    width: 100px;
+}
