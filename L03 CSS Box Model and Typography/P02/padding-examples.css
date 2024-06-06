@@ -1,0 +1,21 @@
+body{
+    border: 2px solid black;
+}
+
+
+div{
+    margin: 1.5em;
+    border: 2px solid black;
+}
+
+div:first-child{
+    padding: 20px;
+}
+
+div:nth-child(2){
+    padding: 10px 30px 20px 40px;
+}
+
+div:nth-child(3){
+    padding: 5%;
+}
