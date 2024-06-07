@@ -1,39 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SoftUni Kids</title>
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
     <header>
-        <article>
-            <img src="Vector.png">
-            <img src="Color.png">
-        </article>
-        <article>
+        <div class="container">
+            <div class="logo">
+                <img src="Vector.png" alt="SoftUni Kids">
+                <img src="Color.png" alt="SoftUni Kids">
+            </div>
             <nav>
                 <ul>
-                    <li>
-                        <a class="nav-link" href="a">ОБУЧЕНИЯ</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="a">СЪБИТИЯ</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="a">ПРЕПОДАВАТЕЛИ</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="a">БЛОГ</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="a">КОНТАКТИ</a>
-                    </li>
+                    <li><a href="#">Обучения</a></li>
+                    <li><a href="#">Събития</a></li>
+                    <li><a href="#">Преподаватели</a></li>
+                    <li><a href="#">Учебни програми</a></li>
+                    <li><a href="#">Контакти</a></li>
                 </ul>
             </nav>
-        </article>
-        
-    </header> 
+            <div class="profile">
+                <a href="#">Вход</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="courses">
+            <h1>Обучения</h1>
+            <p>At dolor amet, enim sit augue donec mauris, ac. Eget leo quam et, morbi. Ut eu hac risus a suscipit cras sagittis viverra gravida. Lobortis amet imperdiet tincidunt quisque accumsan, porta tellus commodo at. Augue ullamcorper suspendisse. Sit morbi risus</p>
+            <div class="filters">
+                <select>
+                    <option>Ниво</option>
+                </select>
+                <select>
+                    <option>Град</option>
+                </select>
+                <select>
+                    <option>Месец</option>
+                </select>
+                <select>
+                    <option>Преподавател</option>
+                </select>
+                <select>
+                    <option>Формат</option>
+                </select>
+                <select>
+                    <option>Цена</option>
+                </select>
+            </div>
+            <div class="course-list">
+                <div class="course">
+                    <h2>Първи стъпки в програмирането</h2>
+                    <p><strong>Начинаещи</strong></p>
+                    <p><strong>16 май 2020</strong></p>
+                    <p>4 седмици | 1-3 клас | София - ж.к. Изток</p>
+                    <p>Цена: 110 лв.</p>
+                    <button>Към обучението</button>
+                </div>
+                <div class="course">
+                    <h2>Първи стъпки в програмирането</h2>
+                    <p><strong>Начинаещи</strong></p>
+                    <p><strong>4 седмици</strong></p>
+                    <p>2-3 клас | Онлайн</p>
+                    <p>Цена: 110 лв.</p>
+                    <button>Към обучението</button>
+                </div>
+                <div class="course">
+                    <h2>Първи стъпки в програмирането</h2>
+                    <p><strong>Средно начинаещи</strong></p>
+                    <p><strong>4 седмици</strong></p>
+                    <p>1-3 клас | София, SoftUni - ж.к. Изток</p>
+                    <p>Цена: 110 лв.</p>
+                    <button>Към обучението</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="programs">
+            <h2>Учебни програми</h2>
+            <div class="program">
+                <h3>Софтуерна програма</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <button>Виж софтуерна програма</button>
+            </div>
+            <div class="program">
+                <h3>Хардуерна програма</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <button>Виж хардуерна програма</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <img src="Mask Group.png" alt="SoftUni Kids">
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>SoftUni Kids</h4>
+                    <ul>
+                        <li><a href="#">Начало</a></li>
+                        <li><a href="#">Общи условия</a></li>
+                        <li><a href="#">Лични данни</a></li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Видове обучения</h4>
+                    <ul>
+                        <li><a href="#">Курсове</a></li>
+                        <li><a href="#">Уроци</a></li>
+                        <li><a href="#">Събития</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Всички инициативи</h4>
+                    <ul>
+                        <li><a href="#">SoftUni University</a></li>
+                        <li><a href="#">SoftUni Digital</a></li>
+                        <li><a href="#">SoftUni Creative</a></li>
+                        <li><a href="#">SoftUni Svetlina</a></li>
+                        <li><a href="#">SoftUni Foundation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2019 - 2020 SoftUni Kids. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
