@@ -52,3 +52,8 @@ body {
 .card .footer span:last-child {
     font-style: italic;
 }
+
+.card:hover{
+    color: #40b186;
+    background-color: #bdbaba;
+}
