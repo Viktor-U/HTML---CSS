@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eee;
+    padding: 2em;
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+.calendar {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    border: 4px double rgb(197, 193, 193);
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    white-space: unset;
+}
+
+
+
+.calendar p{
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+section.week{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+
+
+section > *{
+    border: 1px solid rgb(197, 193, 193);
+    padding: 1em;
+}
+
+section.week p:nth-child(1),
+section.week p:nth-child(7){
+    flex: 0 0 100%;
+}
