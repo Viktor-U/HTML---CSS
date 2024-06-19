@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 4em;
+    background: #eee;
+    Font: 15px/1.5 Lato, sans-serif;
+}
+
+.site{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    background: white;
+    border-radius: 0.3em;
+    display: flex;
+    gap: 1.5em;
+    flex-direction: row;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.site > *{
+    border: 1px solid gray;
+    border-radius: 0.3em;
+    padding: 2em;
+}
+
+header, footer{
+    flex: 1 0 100%;
+}
+
+.site > main{
+    flex: 1 1 450px;
+}
+
+.site > aside{
+    flex: 1 0 275px;
+}
